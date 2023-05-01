@@ -2,7 +2,7 @@ from pprint import pprint
 import requests
 
 SHEETY_PRICES_ENDPOINT = "https://api.sheety.co/080db92c65c44c96aead601ec819cb21/flightDeal/price"
-SHEETY_TOKEN = "080db92c65c44c96aead601ec819cb21"
+SHEETY_TOKEN = "*********"
 
 bearer_headers = {
         "Authorization": f"Bearer {SHEETY_TOKEN}"
